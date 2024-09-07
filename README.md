@@ -1,8 +1,19 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-## Learning Laravel
+## Install Lara vel crud
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+1 - npm install
+    npm run dev
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+2 - Config DB_DATABASE=nama_database
 
+3 - php artisan migrate:refresh --seed 
+
+4 - Setting SMTP for Forgot Password in ENV
+
+5 - php artisan serve
+
+
+## Account
+1 - admin@example.com   adminpassword
+2 - user@example.com    userpassword
